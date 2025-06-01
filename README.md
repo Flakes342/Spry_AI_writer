@@ -74,19 +74,7 @@ To build and run the application using Docker:
     Run the Docker Container:
 
     docker run --env-file .env spry-ai-writer
-
-File Structure
-
-Spry_AI_writer/
-├── .env                 # Environment variables
-├── Dockerfile           # Docker configuration
-├── README.md            # Project documentation
-├── app.py               # Main application script
-├── config.toml          # Configuration file
-├── requirements.txt     # Python dependencies
-├── spry_blog.csv        # Input CSV for blog topics
-├── spry_desc.csv        # Input CSV for descriptions
-└── output/              # Directory for generated content
+    
 
 Contributing
 
