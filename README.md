@@ -1,6 +1,8 @@
-Spry AI Writer
+# Spry AI Writer
 
-Spry AI Writer is a Python-based tool designed to generate AI-powered content for healthcare topics. It utilizes OpenAI's GPT models to create blog posts and descriptions, streamlining content creation for healthcare professionals and organizations.
+<center> <img width="400" height="200" alt="image" align='center' src="https://github.com/user-attachments/assets/35c6c6b6-8011-4cbc-9dea-56bfc200d755" /> </center>
+<br> </br>
+Spry AI Writer is a Python-based tool designed to generate AI-powered content for healthcare topics. It utilizes OpenAI's GPT2/GPT3 models to create blog posts and descriptions, streamlining content creation for healthcare professionals and organizations.
 Features
 
     AI-Generated Content: Leverages OpenAI's GPT models to produce high-quality healthcare-related content.
@@ -11,13 +13,13 @@ Features
 
     Docker Support: Includes a Dockerfile for containerized deployment.
 
-Prerequisites
+## Prerequisites
 
     Python 3.7 or higher
 
     An OpenAI API key
 
-Installation
+## Installation
 
     Clone the Repository:
 
@@ -38,7 +40,7 @@ Installation
 
     OPENAI_API_KEY=your_openai_api_key_here
 
-Configuration
+## Configuration
 
 The config.toml file allows you to customize various settings:
 
@@ -56,7 +58,7 @@ model = "gpt-3.5-turbo"
 
     model: OpenAI model to use for content generation.
 
-Usage
+## Usage
 
 To run the application:
 
@@ -76,7 +78,7 @@ To build and run the application using Docker:
     docker run --env-file .env spry-ai-writer
     
 
-Contributing
+## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 License
